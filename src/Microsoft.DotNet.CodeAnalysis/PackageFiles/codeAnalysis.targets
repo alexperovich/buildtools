@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!--
+    Some of the analyzers require the IOperation feature
+  -->
+  <PropertyGroup>
+    <Features>$(Features);IOperation</Features>
+  </PropertyGroup>
+
   <!-- 
     We should be using $(BuildToolsTaskDir) for this, however we are currently forcing that property to 
     always be net45 (because we use Mono to run our tests and Mono needs to load the net45 version)
