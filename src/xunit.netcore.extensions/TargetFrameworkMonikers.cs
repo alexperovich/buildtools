@@ -23,12 +23,13 @@ namespace Xunit
 
         Netcoreapp1_0 = 0x200,
         Netcoreapp1_1 = 0x400,
+        Netcoreapp2_0 = 0x800,
 
         NetFramework = Net45 | Net451 | Net452 | Net46 | Net461 | Net462 | Net463,
         NetFramework45 = Net45 | Net451 | Net452,
         NetFramework46 = Net46 | Net461 | Net462,
 
-        Netcoreapp = Netcoreapp1_0 | Netcoreapp1_1,
+        Netcoreapp = Netcoreapp1_0 | Netcoreapp1_1 | Netcoreapp2_0,
 
         NetcoreUwp = Netcore50 | Netcore50aot
     }

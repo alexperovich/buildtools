@@ -26,6 +26,7 @@ namespace Xunit.NetCore.Extensions
         internal static string NonNetcore50aotTest = "nonnetcore50aottests";
         internal static string NonNetcoreapp1_0Test = "nonnetcoreapp1.0tests";
         internal static string NonNetcoreapp1_1Test = "nonnetcoreapp1.1tests";
+        internal static string NonNetcoreapp2_0Test = "nonnetcoreapp2.0tests";
 
         internal const string Failing = "failing";
         internal const string ActiveIssue = "activeissue";
